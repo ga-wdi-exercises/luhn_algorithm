@@ -24,21 +24,21 @@ var checksum = 0;           // holds the sum of all digits
 var atEvenPosition = false; // tracks whether we should double the digit before adding it
 
 for (var n = numberAsArray.length - 1; n >= 0; n--) {
-	var currentDigit = numberAsArray[n];
+  var currentDigit = numberAsArray[n];
 
   // if we're in an even position we need to double the number
-	if (atEvenPosition) {
+  if (atEvenPosition) {
     currentDigit = currentDigit * 2;
 
     // if the number is greater than nine, we need to add up it's digits, which
     // is the same as subtracting 9
-		if (currentDigit > 9) {
+    if (currentDigit > 9) {
       currentDigit -= 9;
     }
-	}
+  }
 
-	checksum += currentDigit;
-	atEvenPosition = !atEvenPosition;
+  checksum += currentDigit;
+  atEvenPosition = !atEvenPosition;
 }
 
 // check whether the checksum ends in a 0, if so, the number is valid
