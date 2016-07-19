@@ -36,10 +36,6 @@ Spend 15 minutes as either the driver or navigator.
 
 Switch! Spend 15 minutes as the driver if you just navigated, or as the navigator if you just drove.
 
-### Fifth
-
-Let’s talk about it.
-
 ## Challenge: Validating Credit Card Numbers
 
 Credit card numbers can be validated with a process called the Luhn algorithm. Simply stated, the Luhn algorithm works like this:
@@ -62,7 +58,7 @@ Step 3:  70 % 10 == 0
 ### To Do
 Choose either Ruby or JavaScript.
 
-Create a variable `creditCardNumber` equal to a number, and print `true` to the console if it is a valid credit card number, `false` otherwise. 
+Create a variable `creditCardNumber` equal to a number, and print `true` to the console if it is a valid credit card number, `false` otherwise.
 
 For your reference:
 * 1234567890123456 is not valid
